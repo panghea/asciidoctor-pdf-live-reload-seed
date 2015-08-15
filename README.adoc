@@ -1,0 +1,65 @@
+:lang:        ja
+:icons:       font
+:docinfo:
+:toc-title: 目次
+:toc: left
+:sectnums:
+
+= asciidoctor-pdf-live-reload-seed
+
+Example project of asciidoctor + asciidoctor-pdf + asciidoctor-pdf-cjk + browser-sync + gulp
+
+asciidoctorと周辺ツールによる日本語出力対応のPDF出力、Live Reloadサンプルプロジェクトです。
+
+This project supports windows and mac.
+
+== Installation
+[source, bash]
+----
+bundler install
+npm install -g browser-sync
+npm install -g gulp
+npm install
+----
+
+== Usage
+=== simple generate html and pdf
+
+[.lead]
+convert to README .adoc to html and pdf.
+
+[source, bash]
+----
+./generate.sh README
+----
+or
+[source, powershell]
+----
+./generate.ps1 README 
+----
+  
+=== live reload (watch and generate html and pdf)
+[source, bash]
+----
+./live_reload.sh README 
+---- 
+or
+[source, powershell]
+----
+./live_reload.ps1 README 
+----
+ 
+More Detail on
+
+* asciidoctor-pdf XXXXX
+
+== Contributing
+. Fork it!
+. Create your feature branch: git checkout -b my-new-feature
+. Commit your changes: git commit -am 'Add some feature'
+. Push to the branch: git push origin my-new-feature
+. Submit a pull request :D
+
+== License
+
+MIT

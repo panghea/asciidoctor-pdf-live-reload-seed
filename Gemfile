@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'asciidoctor'
+gem 'coderay'
+gem 'rouge'
+gem 'asciidoctor-pdf', '~> 1.5.0.alpha.9'
+gem 'asciidoctor-pdf-cjk', '~> 0.1.1'
+gem 'asciidoctor-diagram', '~> 1.2.0.pre' 
