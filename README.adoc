@@ -51,7 +51,7 @@ or
  
 More Detail on
 
-* asciidoctor-pdf XXXXX
+* My blog http://price-checker.jp/asciidoctor-pdf/[エクセルやパワーポイントのドキュメントを捨てて、超美麗なドキュメント作成をasciidoctorで実現しよう！]
 
 == Contributing
 . Fork it!
