@@ -37,7 +37,7 @@ page:
   margin: [0.5in, 0.67in, 0.67in, 0.67in]
   size: A4
 base:
-  align: justify
+  align: left
   # color as hex string (leading # is optional)
   font_color: 333333
   # color as RGB array

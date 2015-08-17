@@ -17,7 +17,6 @@ This project supports windows and mac.
 [source, bash]
 ----
 bundler install
-npm install -g browser-sync
 npm install -g gulp
 npm install
 ----
@@ -30,24 +29,19 @@ convert to README .adoc to html and pdf.
 
 [source, bash]
 ----
-./generate.sh README
+./generate.sh README.adoc
 ----
 or
 [source, powershell]
 ----
-./generate.ps1 README 
+./generate.ps1 README.adoc
 ----
   
 === live reload (watch and generate html and pdf)
 [source, bash]
 ----
-./live_reload.sh README 
+gulp
 ---- 
-or
-[source, powershell]
-----
-./live_reload.ps1 README 
-----
  
 More Detail on
 
