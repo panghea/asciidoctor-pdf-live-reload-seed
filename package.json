@@ -5,8 +5,11 @@
   "main": "generator.sh",
   "author": "panghea.develop@gmail.com",
   "license": "MIT",
+  "repository" : "https://github.com/panghea/asciidoctor-pdf-live-reload-seed",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-convert-encoding": "0.0.3",
+    "gulp-plumber": "^1.0.1",
     "gulp-run": "^1.6.10",
     "gulp-shell": "^0.4.2"
   }
